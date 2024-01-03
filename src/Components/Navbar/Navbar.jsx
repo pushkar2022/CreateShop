@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './style.css'
 import logo from '../Assests/logo.png'
 import cart_icon   from '../Assests/cart_icon.png'
+import { Link } from 'react-router-dom'
 function Navbar() {
     const [menu,setMenu]=useState('shop')
   return (
@@ -11,10 +12,10 @@ function Navbar() {
      <p>SHOPPER</p>
         </div>
         <ul className='nav-menu'>
-            <li onClick={()=>setMenu('shop')}>Shop {menu=='shop'? <hr/>:<></>}</li>
-            <li onClick={()=>setMenu('men')}>Men {menu=='men'? <hr/>:<></>}</li>
-            <li onClick={()=>setMenu('women')}>Women {menu=='women'? <hr/>:<></>}</li>
-            <li onClick={()=>setMenu('kids')}>Kids {menu=='kids'? <hr/>:<></>}</li>
+            <li onClick={()=>setMenu('shop')}><Link style={{textDecoration: 'none'}} to='/'>Shop </Link>   {menu=='shop'? <hr/>:<></>}</li>
+            <li onClick={()=>setMenu('men')}><Link style={{textDecoration: 'none'}}  to='/mens'>Men </Link> {menu=='men'? <hr/>:<></>}</li>
+            <li onClick={()=>setMenu('women')}><Link style={{textDecoration: 'none'}}  to='/womens'>Women </Link> {menu=='women'? <hr/>:<></>}</li>
+            <li onClick={()=>setMenu('kids')}><Link style={{textDecoration: 'none'}}  to='/kid'>Kids </Link> {menu=='kids'? <hr/>:<></>}</li>
 
 
         </ul>

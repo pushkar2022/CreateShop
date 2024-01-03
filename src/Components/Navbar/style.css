@@ -21,6 +21,7 @@
     list-style: none;
     gap: 50px;
     color: #626262;
+    
 }
 .nav-menu li{
     display: flex;
@@ -71,4 +72,7 @@
     background: red;
      color: white;    
 
+}
+.nav-menu Link{
+    text-decoration: none;
 }
