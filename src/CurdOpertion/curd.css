@@ -1,0 +1,133 @@
+.loginsignup{
+    width: 100%;
+    height: 100vh;
+    background-color: #fce3fe;
+    padding-top: 50px;
+   
+}
+.loginsignup-container{
+  
+}
+
+.modal {
+   
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+ 
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    border-radius: 20px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .formContainer{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap:10px;
+    margin-left: 50px;
+
+  }
+  .formContainer label{
+   
+    font-weight: 600;
+    justify-content: start;
+  }
+  .formContainer input{
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    padding-left: 10px;
+ 
+
+  }
+  .formContainer button{
+    width: 40%;
+    margin: auto;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    background:#FF4141;
+    border: none;
+    outline: none;;
+    cursor: pointer;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+  .table-contaner{
+    width: 80%;
+    height: 500px;
+    
+    background: rgb(209, 198, 198);
+    margin: auto;
+    padding: 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+  }
+  .table-contaner span{
+    font-weight: 500;
+    width: 100%;
+    border-radius: 50px;
+    background: #FF4141;
+    text-align: center;
+    align-items: center;
+  }
+  .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading button{
+   margin-left: 200px;
+   border-radius: 20px;
+   width: 200px;
+   height: 40px;
+   background-color: #FF4141;
+   outline: none;
+   border: 0px;
+   font-size: 20px;
+   font-weight: 500;
+  }
